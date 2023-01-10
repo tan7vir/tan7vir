@@ -1,4 +1,4 @@
-[![MasterHead](https://i.pinimg.com/originals/0f/25/e4/0f25e4668c1c7740b5ed41835339d67f.gif)]
+![MasterHead](https://i.pinimg.com/originals/0f/25/e4/0f25e4668c1c7740b5ed41835339d67f.gif)
 
 <h1 align="center">Hi 👋, I'm tan_Vir</h1>
 <h3 align="center">I am a CSE student. Presently studying competitive programming to develop my coding and problem-solving abilities.</h3>
@@ -9,6 +9,8 @@
 - 🌱 I’m currently learning **CPP, Java Script & Algorithms.**
 
 ## 🌐 Socials:
+<a href="https://www.linkedin.com/in/mohammad-tanvirul-islam-niloy-943834217/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/mohammad-tanvirul-islam-niloy-943834217/" height="30" width="40" /></a>
+
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100009705485456) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-tanvirul-islam-niloy-943834217/) 
 
 # 💻 Tech Stack:
