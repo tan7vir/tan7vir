@@ -37,14 +37,6 @@
 
 ## 📊 GitHub Stats:
 
-
-
-![](https://github-readme-stats.vercel.app/api?username=Md-Tanvirul-Islam-Niloy&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Md-Tanvirul-Islam-Niloy&theme=dark&hide_border=false)<br/>
-
-
-
-
-
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=Md-Tanvirul-Islam-Niloy&theme=dark&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
 
 
