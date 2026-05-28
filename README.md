@@ -1,42 +1,87 @@
-![MasterHead](https://i.pinimg.com/originals/0f/25/e4/0f25e4668c1c7740b5ed41835339d67f.gif)
+<h1 align="center">Tan Vir</h1>
 
-<h1 align="center"> Hi, I am Tan Vir.
-</h1>
-<h3 align="center">I am a CSE student. Presently studying competitive programming to develop my coding and problem-solving abilities.</h3>
-<img align="right" alt="Coding" width="400" src="https://res.cloudinary.com/practicaldev/image/fetch/s--R5KgC1bh--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/oi2rwsde00xo9ou6jwsl.gif">
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=md-tanvirul-islam-niloy&label=Profile%20views&color=0e75b6&style=flat" alt="md-tanvirul-islam-niloy" /> </p>
-
-- 🌱 I’m currently learning **<a href="https://en.wikipedia.org/wiki/C%2B%2B"> C++ </a>, <a href="https://en.wikipedia.org/wiki/JavaScript"> Java Script </a>  & <a href="https://www.geeksforgeeks.org/fundamentals-of-algorithms/"> Algorithms </a> .**
-
-- 🖥  I'm a computer science student at <a href="http://www.northsouth.edu/"> North South University. </a>
-
-- 📫 How to reach me **tanvirulislam.niloy@gmail.com**
-
-- ⚡ Fun fact **I would like to have ice cream at 10-degree celsius too**
-
-
-## 🌐 Socials:
-
-<a href="https://www.linkedin.com/in/mohammad-tanvirul-islam-niloy-943834217/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/mohammad-tanvirul-islam-niloy-943834217/" height="30" width="40" /></a> 
-<a href="https://www.facebook.com/profile.php?id=100009705485456" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/profile.php?id=100009705485456" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/tan_vir17" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="https://www.codechef.com/users/tan_vir17" height="30" width="40" /></a>
-<a href="https://codeforces.com/profile/tanvir17" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="https://codeforces.com/profile/tanvir17" height="30" width="40" /></a>
-<a href="https://leetcode.com/user4214mx/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/user4214mx/" height="30" width="40" /></a>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0A66C2&center=true&vCenter=true&width=640&lines=I+build+%26+ship+production+AI+SaaS;Backend+systems%2C+owned+end+to+end;FastAPI+%7C+PostgreSQL+%7C+Redis+%7C+LLMs;System-design-first+%7C+AI-native+builder" alt="what I do" />
 </p>
- 
- 
-  
-## 💻 Knows:
 
+<p align="center">
+  <sub>FastAPI · PostgreSQL · Redis · Next.js · LLMs — system-design-first, delivered through to production.</sub>
+</p>
 
-<a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="blank"><img align="center" src="https://img.icons8.com/color/512/c-programming.png" alt="https://en.wikipedia.org/wiki/C_(programming_language)" height="50" width="50" /></a> 
-<a href="https://en.wikipedia.org/wiki/C%2B%2B" target="blank"><img align="center" src="https://img.icons8.com/color/512/c-plus-plus-logo.png" alt="https://en.wikipedia.org/wiki/C%2B%2B" height="50" width="50" /></a> 
-<a href="https://en.wikipedia.org/wiki/Java_(programming_language)" target="blank"><img align="center" src="https://img.icons8.com/color/512/java-coffee-cup-logo--v2.png" alt="https://en.wikipedia.org/wiki/Java_(programming_language)" height="50" width="50" /></a> 
+<p align="center">
+  <a href="https://www.linkedin.com/in/tan7vir/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:tanvirulislam.niloy@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20me-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=tan7vir&label=Profile%20views&color=0a66c2&style=flat" alt="profile views"/>
+</p>
 
+---
 
-## 📊 GitHub Stats:
+### 👋 About
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=tan7vir&theme=dark&date_format=M%20j%5B%2C%20Y%5D)](https://git.io/streak-stats)
+Backend engineer building multi-tenant, AI-powered SaaS in production. Over the past year I've engineered APIs, async job pipelines, data layers, payments/third-party integrations, and LLM features — taking work from spec through tests to deploy.
 
+The way I build has shifted: I **lead with system design and architecture**, work spec-first and test-first, use AI to move fast, then **own the result** with tests, CI, and observability. I like working **close to the product** and owning systems from spec to production — currently going deep on system design.
 
+- 🧠 Best at: **API & backend design · async/distributed systems · multi-tenant architecture · applied LLMs/RAG · end-to-end delivery**
+- 🌍 Open to **remote** opportunities (international).
+- 🏆 Competitive programming background — **ICPC regionalist**, sport programmer @ NSU Problem Solvers.
+- 📫 **tanvirulislam.niloy@gmail.com**
+
+---
+
+### 🛠 Tech
+
+**Backend** &nbsp; ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logo=sqlalchemy&logoColor=white)
+
+**Data &amp; Infra** &nbsp; ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=redis&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+
+**Frontend** &nbsp; ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+
+**AI** &nbsp; ![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-5A67D8?style=flat) ![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
+
+---
+
+### 🚀 Featured Projects
+
+**🔌 relaykit** &nbsp;·&nbsp; *Multi-tenant webhook delivery platform* &nbsp; `🚧 building`
+> Reliable, signed webhook fan-out with retries, idempotency, dead-letter handling, delivery logs, and AI failure summaries. DB-enforced tenant isolation (Postgres RLS), at-least-once delivery via async workers.
+> `FastAPI` · `async SQLAlchemy + Postgres RLS` · `arq` · `Redis` · `Docker` · `CI`
+<!-- TODO: add repo + live demo link when shipped -->
+
+**🧭 docquery-mcp** &nbsp;·&nbsp; *Production MCP server for grounded retrieval* &nbsp; `🚧 building`
+> Hybrid RAG (pgvector + BM25 + rerank) exposed as typed agent tools for any MCP client — shipped with a reproducible eval suite (recall@k, faithfulness, cost/query) and full request tracing.
+> `Python` · `MCP SDK` · `pgvector` · `Gemini` · `RAGAS` · `Langfuse`
+<!-- TODO: add repo + eval report link when shipped -->
+
+**📚 [Physics Chatbot — Advanced RAG](https://github.com/tan7vir/Physics-Chatbot-using-Advanced-RAG)**
+> Offline, textbook-aligned AI learning assistant for grades 9–10 (NCTB Physics) using RAG + small language models.
+> `Python` · `RAG` · `SLMs`
+
+---
+
+### 📊 GitHub
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=tan7vir&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tan7vir&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top langs"/>
+</p>
+
+<p align="center">
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=tan7vir&theme=tokyonight&hide_border=true" alt="streak"/>
+</p>
+
+<p align="center">
+  <img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=tan7vir&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="activity graph"/>
+</p>
+
+<!-- 🐍 Contribution snake — auto-generated by .github/workflows/snake.yml.
+     Renders only AFTER the action runs once and creates the `output` branch. -->
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tan7vir/tan7vir/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tan7vir/tan7vir/output/github-snake.svg" />
+    <img width="92%" alt="contribution snake" src="https://raw.githubusercontent.com/tan7vir/tan7vir/output/github-snake.svg" />
+  </picture>
+</p>
+
+<p align="center"><sub>Building in public — backend, distributed systems, and applied AI.</sub></p>
