@@ -62,11 +62,6 @@ The way I build has shifted: I **lead with system design and architecture**, wor
 ### 📊 GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=tan7vir&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tan7vir&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="top langs"/>
-</p>
-
-<p align="center">
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=tan7vir&theme=tokyonight&hide_border=true" alt="streak"/>
 </p>
 
