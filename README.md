@@ -1,82 +1,28 @@
-<h1 align="center">Tan Vir</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tan7vir/tan7vir/profile-assets/hero-dark.svg">
+  <img src="https://raw.githubusercontent.com/tan7vir/tan7vir/profile-assets/hero-light.svg" width="100%" alt="Tan Vir. AI engineer, product, full-stack. I build systems that read, reason, and hold up in production. The banner draws my last 12 months of GitHub contributions as a waveform, one bar per day.">
+</picture>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0A66C2&center=true&vCenter=true&width=640&lines=I+build+%26+ship+production+AI+SaaS;Backend+systems%2C+owned+end+to+end;FastAPI+%7C+PostgreSQL+%7C+Redis+%7C+LLMs;System-design-first+%7C+AI-native+builder" alt="what I do" />
-</p>
+I'm a software engineer at [Automata One](https://one.bd) in Dhaka. I build [ONE PBX](https://portal.one.bd), a phone system for contact centres that runs an AI audit on every call. I work on all of it: the LLM pipeline, the backend, the web app, and the desktop softphone.
 
-<p align="center">
-  <sub>FastAPI · PostgreSQL · Redis · Next.js · LLMs — system-design-first, delivered through to production.</sub>
-</p>
+I build with coding agents. Claude and Codex write alongside me. The architecture, the review, and the consequences stay mine. Between July 2025 and October 2026, 899 of my pull requests were merged, 602 of them into ONE PBX.
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/tan7vir/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:tanvirulislam.niloy@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20me-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=tan7vir&label=Profile%20views&color=0a66c2&style=flat" alt="profile views"/>
-</p>
+### Inside ONE PBX
 
----
+- Every call is transcribed, split into speaker turns, and audited by an LLM against that company's own rules.
+- Each audit report is saved as a snapshot, so a later prompt change never rewrites past evidence.
+- PostgreSQL row-level security keeps each company's data apart, with the tenant set inside each transaction.
+- Transcription and audits run on Redis-backed arq workers, off the web request path.
+- It meters usage, bills in Bangladeshi taka, runs in English and Bangla, and has a desktop softphone built in Rust with Tauri.
 
-### 👋 About
+`Python` `FastAPI` `PostgreSQL` `Redis` `arq` `Next.js` `TypeScript` `Gemini` `Rust` `Tauri`
 
-Backend engineer building multi-tenant, AI-powered SaaS in production. Over the past year I've engineered APIs, async job pipelines, data layers, payments/third-party integrations, and LLM features — taking work from spec through tests to deploy.
+### Elsewhere
 
-The way I build has shifted: I **lead with system design and architecture**, work spec-first and test-first, use AI to move fast, then **own the result** with tests, CI, and observability. I like working **close to the product** and owning systems from spec to production — currently going deep on system design.
+- [Physics Chatbot](https://github.com/tan7vir/Physics-Chatbot-using-Advanced-RAG) is an offline RAG tutor for the NCTB grade 9 and 10 physics textbook. It widens retrieval by generating related questions first, and it runs on a small local model through Ollama.
+- Small fixes of mine are merged upstream: a docstring in [pandas](https://github.com/pandas-dev/pandas/pull/65766), a clearer bearer-auth error in [Hono](https://github.com/honojs/hono/pull/4987), and an error message in [Outlines](https://github.com/dottxt-ai/outlines/pull/1870).
+- I'm an ICPC regionalist and a sports programmer with NSU Problem Solvers at North South University.
 
-- 🧠 Best at: **API & backend design · async/distributed systems · multi-tenant architecture · applied LLMs/RAG · end-to-end delivery**
-- 🌍 Open to **remote** opportunities (international).
-- 🏆 Competitive programming background — **ICPC regionalist**, sport programmer @ NSU Problem Solvers.
-- 📫 **tanvirulislam.niloy@gmail.com**
+[Portfolio](https://tan7vir.vercel.app) · [LinkedIn](https://www.linkedin.com/in/tan7vir/) · [tanvirulislam.niloy@gmail.com](mailto:tanvirulislam.niloy@gmail.com) · Open to remote roles
 
----
-
-### 🛠 Tech
-
-**Backend** &nbsp; ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat&logo=sqlalchemy&logoColor=white)
-
-**Data &amp; Infra** &nbsp; ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=redis&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-
-**Frontend** &nbsp; ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-
-**AI** &nbsp; ![Gemini](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-5A67D8?style=flat) ![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
-
----
-
-### 🚀 Featured Projects
-
-**🔌 relaykit** &nbsp;·&nbsp; *Multi-tenant webhook delivery platform* &nbsp; `🚧 building`
-> Reliable, signed webhook fan-out with retries, idempotency, dead-letter handling, delivery logs, and AI failure summaries. DB-enforced tenant isolation (Postgres RLS), at-least-once delivery via async workers.
-> `FastAPI` · `async SQLAlchemy + Postgres RLS` · `arq` · `Redis` · `Docker` · `CI`
-<!-- TODO: add repo + live demo link when shipped -->
-
-**🧭 docquery-mcp** &nbsp;·&nbsp; *Production MCP server for grounded retrieval* &nbsp; `🚧 building`
-> Hybrid RAG (pgvector + BM25 + rerank) exposed as typed agent tools for any MCP client — shipped with a reproducible eval suite (recall@k, faithfulness, cost/query) and full request tracing.
-> `Python` · `MCP SDK` · `pgvector` · `Gemini` · `RAGAS` · `Langfuse`
-<!-- TODO: add repo + eval report link when shipped -->
-
-**📚 [Physics Chatbot — Advanced RAG](https://github.com/tan7vir/Physics-Chatbot-using-Advanced-RAG)**
-> Offline, textbook-aligned AI learning assistant for grades 9–10 (NCTB Physics) using RAG + small language models.
-> `Python` · `RAG` · `SLMs`
-
----
-
-### 📊 GitHub
-
-<p align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=tan7vir&theme=tokyonight&hide_border=true" alt="streak"/>
-</p>
-
-<p align="center">
-  <img width="92%" src="https://github-readme-activity-graph.vercel.app/graph?username=tan7vir&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="activity graph"/>
-</p>
-
-<!-- 🐍 Contribution snake — auto-generated by .github/workflows/snake.yml.
-     Renders only AFTER the action runs once and creates the `output` branch. -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tan7vir/tan7vir/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tan7vir/tan7vir/output/github-snake.svg" />
-    <img width="92%" alt="contribution snake" src="https://raw.githubusercontent.com/tan7vir/tan7vir/output/github-snake.svg" />
-  </picture>
-</p>
-
-<p align="center"><sub>Building in public — backend, distributed systems, and applied AI.</sub></p>
+<sub>A [GitHub Actions workflow](https://github.com/tan7vir/tan7vir/blob/main/.github/workflows/profile.yml) redraws the banner every day from my contribution data.</sub>
