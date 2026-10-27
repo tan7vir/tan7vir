@@ -7,6 +7,11 @@ I'm a software engineer at [Automata One](https://one.bd) in Dhaka. I build [ONE
 
 I build with coding agents. Claude and Codex write alongside me. The architecture, the review, and the consequences stay mine. Between July 2025 and October 2026, 899 of my pull requests were merged, 602 of them into ONE PBX.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tan7vir/tan7vir/main/hero/stack-dark.svg">
+  <img src="https://raw.githubusercontent.com/tan7vir/tan7vir/main/hero/stack-light.svg" width="100%" alt="My stack. AI and ML: Python, PyTorch, Gemini, Ollama, Claude, Codex. Backend: FastAPI, Node.js, Express, PostgreSQL, MongoDB, Redis. Frontend: TypeScript, React, Next.js, Tailwind CSS. Desktop: Rust, Tauri. Infra: Docker, Vercel, Hetzner, Cloudflare, Git.">
+</picture>
+
 ### Inside ONE PBX
 
 - Every call is transcribed, split into speaker turns, and audited by an LLM against that company's own rules.
@@ -14,8 +19,6 @@ I build with coding agents. Claude and Codex write alongside me. The architectur
 - PostgreSQL row-level security keeps each company's data apart, with the tenant set inside each transaction.
 - Transcription and audits run on Redis-backed arq workers, off the web request path.
 - It meters usage, bills in Bangladeshi taka, runs in English and Bangla, and has a desktop softphone built in Rust with Tauri.
-
-`Python` `FastAPI` `PostgreSQL` `Redis` `arq` `Next.js` `TypeScript` `Gemini` `Rust` `Tauri`
 
 ### Elsewhere
 
