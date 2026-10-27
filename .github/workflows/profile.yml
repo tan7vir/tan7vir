@@ -1,0 +1,40 @@
+name: Profile banner
+
+on:
+  schedule:
+    # 00:17, not 00:00: GitHub delays, and under load drops, runs queued at the top of the hour.
+    - cron: '17 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: ['**']
+
+permissions:
+  contents: write
+
+jobs:
+  banner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Draw the banner
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node hero/render.mjs --out dist
+
+      - name: Publish to profile-assets
+        if: github.ref == 'refs/heads/main'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          cd dist
+          git init --quiet --initial-branch=profile-assets
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --all
+          git commit --quiet --message "Banner drawn from ${GITHUB_SHA}"
+          git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" profile-assets
